@@ -1,0 +1,52 @@
+
+body {
+    height: 1080px;
+    background-image:url('../pag.png');
+    background-position:center;
+}
+
+#container{
+    height: 1080px;
+    overflow:hidden;
+}
+
+#social {
+    top: 692px;
+    width: 250px;
+    height: 40px;
+    left: 50%;
+    margin-left: -110px;
+    position: absolute;
+}
+    .red{
+        width: 30px;
+        height: 40px;
+        margin-right: 20px;
+        position: relative;
+        float: left;
+    }
+#menu{
+    
+    width: 960px;
+    height: 35px;
+    top: 869px;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+}
+    .sucu{
+        width: 150px;
+        height: 35px;
+        margin-right: 170px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+    }
+        .sucuSub{
+            width: 65px;
+            height: 35px;
+            margin-right: 10px;
+            float: left;
+            position:relative;
+            
+        }
