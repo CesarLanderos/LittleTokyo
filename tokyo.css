@@ -1,0 +1,571 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* HERRAMIENTAS */
+*{
+	font-family: calibri, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+a{
+	border: 0px;
+	text-decoration: none;
+	color:#542D00;
+}
+img{
+	border: 0px;
+}
+img[src="img/contoff.png"]{
+	margin-right: 4px;
+}
+ul{
+	list-style:none;
+}
+.chico{
+	font-size:12px;
+}
+/* FONDO */
+
+#fondo{
+	width:105%;
+	height:110%;
+	position:fixed;
+	z-index: 4
+}
+.fondosec{
+	z-index: 0;
+	position: absolute;
+}
+.girl{
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+	display: none;
+	position: absolute;
+}
+#papel{
+	height:100%;
+	right:-120px;
+	position:fixed;
+	display: none;
+	z-index:10;
+}
+
+/* FIN FONDO */
+
+
+/* CONTENEDOR */
+
+#contenedor{
+	width:1130px;
+	height:505px;
+	top:185px;
+	left: 55%;
+	margin-left:-565px;
+	position:absolute;
+	z-index: 6;
+}
+	
+	/* HEADER */
+	#header{
+		width:1130px;
+		height:125px;
+		top:40px;
+		left: 55%;
+		margin-left:-565px;
+		position:absolute;
+		z-index: 15;
+	}
+		#header div{
+		}
+		#logo{
+			top:-47px;
+			left:-50px;
+			height:215px;
+			position:absolute;
+		}
+		#direccion{
+			color: #542D00;
+			top: 40px;
+			left:320px;
+			margin-right: 75px;
+			position:absolute;
+		}
+					#direccion ul li span{
+						margin-right: 15px;
+					}
+		#redes{
+			top: 40px;
+			left: 680px;
+			position:absolute;
+		}
+			#redes img{
+				z-index: 0;
+			}
+	/* FIN HEADER */
+	
+	/* SIDEBAR */
+	
+	#sidebar{
+		color:#404733;
+		font-size:16px;
+		font-weight: bold;
+		width:256px;
+		height:300px;
+		float:left;
+		z-index: 1;
+		position:relative;
+	}
+		#sidebar ul{
+			margin-left: 40px;
+			top: 40px;
+			position:absolute;
+		}
+			#sidebar ul li{
+				letter-spacing: 2px;
+				margin-bottom:20px;
+				cursor:pointer;
+			}
+	
+	/* FIN SIDEBAR */
+	
+	/* CONTENIDO */
+	
+	#content{
+		width:874px;
+		height:535px;
+		float:left;
+		position:relative;
+		z-index: 0;
+	}
+		.secciones{
+			display: none;
+		}
+		#home{
+			
+		}
+			#home .fondosec{
+				left: 15px;
+			}
+			#homeallery{
+				position: absolute;
+			}
+				#homeslide{
+					top: 70px;
+					left: 20px;
+					position: absolute;
+				}
+					#homeslide img{
+						left: -26px;
+						top: -75px;
+						display: none;
+						position: absolute;
+					}
+				#homePag{
+					width: 590px;
+					top: 195px;
+					left: -5px;
+					position: absolute;
+				}
+					#homePag img{
+						position: relative;
+						cursor: pointer;
+					}
+					#hizq{
+						float: left;
+					}
+					#hder{
+						float: right;
+					}
+				#homeIndices{
+					width: 130px;
+					left: 565px;
+					top: 40px;
+					position: absolute;
+				}
+					#homeIdices img{
+						margin-right: 14px;
+						float: left;
+						position: relative;
+					}
+		#nosotros{
+			
+		}
+			#nosotros .fondosec{
+				left: -160px;
+				top: -15px;
+			}
+			#nosotrospar{
+				color:#404733;
+				font-size:15px;
+				top: 105px;
+				left: 40px;
+				position: absolute;
+			}
+				#nosotrospar p{
+					margin-bottom: 1em;
+				}
+		#menu{
+			
+		}
+			#menu .fondosec{
+				left: 245px;
+				top: 105px;
+			}
+			#topMenu{
+				width:600px;
+				left: 65px;
+				top: -30px;
+				position: absolute;
+			}
+			#menu h1{
+				color: #404733;
+				margin-bottom: 20px;
+			}
+			.familia{
+				width: 600px;
+				font-weight:bold;
+				color:#542D00;
+				left: 200px;
+				top: 50px;
+				position: absolute;
+			}
+				.subFam .foto{
+					left: 336px;
+					top: 81px;
+				}
+				.subFam .load{
+					left: 481px;
+					top: 255px;
+				}
+				.familia ul{
+					float:left;
+					position: relative;
+					z-index: 1;
+				}
+				#sushi ul li, #arroz ul li{
+					font-size:14px;
+					letter-spacing:1px;
+					color: #404733;
+					padding-left: 18px;
+					margin-left: 10px;
+					margin-bottom: 7px;
+					cursor: pointer;
+					position: relative;
+					float: left;
+					background: url(img/conton.png) no-repeat 0px 3px;
+				}
+				#tempura, #kushiages, #bebidas, #extras{
+					left: 0px;
+					top: 87px;
+					color: #404733;
+					font-weight: normal;
+				}
+				#tempura .foto, #kushiages .foto, #bebidas .foto, #extras .foto{
+					left: 336px;
+					top: 84px;
+					display: none;
+					position: absolute;
+				}
+				#tempura .load, #kushiages .load, #bebidas .load, #extras .load{
+					left: 481px;
+					top: 258px;
+					display: none;
+					position: absolute;
+				}
+				#sushi ul li{
+					background: url(img/conton.png) no-repeat 0px 10px;
+				}
+				.productos{
+					margin-right: 20px;
+					float: left;
+					color: #404733;
+					font-weight: bold;
+					letter-spacing:1px;
+				}
+
+				.subFam .foto, .subFam .load{
+					position: absolute;
+					z-index: 0;
+				}
+				.morado{
+					color: #522d96;
+					font-weight: bold;
+					letter-spacing:1px;
+				}
+				.familia .load{
+					left: 281px;
+					top: 295px;
+					display: none;
+					position: absolute;
+				}
+				.foto{
+					left: 136px;
+					top: 121px;
+					display: none;
+					position: absolute;
+				}
+				#menutitle{
+					margin-right: 0px;
+					float: left;
+					left: -30px;
+					position: relative;
+					clear: both;
+				}
+				#topMenu ul{
+					margin-top: 35px;
+					margin-left: 0px;
+					width: 800px;
+				}
+					#topMenu li{
+						margin-bottom: 7px;
+						float: left;
+						position: relative;
+						cursor: pointer;
+					}
+					.subFam{
+						position: absolute;
+						top: 90px;
+						color: #404733;
+					}
+					/*para la listas con puntitos de cada seccion
+
+					#topMenu li{
+						font-size:14px;
+						letter-spacing:1px;
+						color: #404733;
+						padding-left: 18px;
+						margin-left: 10px;
+						margin-bottom: 7px;
+						background:url(img/conton.png) no-repeat 0px 3px;
+						float:left;
+						position: relative;
+						cursor: pointer;
+					}*/
+		#promociones{
+			
+		}
+			#promociones .fondosec{
+				left: 15px;
+			}
+			#promgallery{
+				position: absolute;
+			}
+				#promoslide{
+					top: 70px;
+					left: 90px;
+					position: absolute;
+				}
+					#promoslide img{
+						left: -26px;
+						top: -75px;
+						display: none;
+						position: absolute;
+					}
+				#promPag{
+					width: 590px;
+					top: 195px;
+					left: -5px;
+					position: absolute;
+				}
+					#promPag img{
+						position: relative;
+						cursor: pointer;
+					}
+					#pizq{
+						float: left;
+					}
+					#pder{
+						float: right;
+					}
+				#indices{
+					width: 130px;
+					left: 525px;
+					top: 40px;
+					position: absolute;
+				}
+					#indices img{
+						margin-right: 14px;
+						float: left;
+						position: relative;
+					}
+		#contacto{
+			
+		}
+			#contacto .fondosec{
+				top: -135px;
+				left: -103px;
+			}
+			#mapa{
+				width: 491px;
+				top: 30px;
+				left: 173px;
+				position: absolute;
+			}
+					#locations li{
+						color:#542D00;
+						margin-right: 30px;
+						margin-bottom: 20px;
+						float: left;
+						position: relative;
+						cursor: pointer;
+					}
+						#locations li h3{
+							display: none;
+						}
+				#map_canvas{
+					width: 491px;
+					height: 188px;
+				}
+				#info{
+					color:#542D00;
+					font-size: 16px;
+					width: 491px;
+					height: 180px;
+				}
+					#info #lugar{
+						margin-top: 10px;
+						margin-right: 0px;
+						float: right;
+						position: relative;
+					}
+						#info form{
+							top: 350px;
+							left: 100px;
+							position: absolute;
+						}
+							#info form input, #info form textarea{
+								border: 0px solid;
+								margin-bottom: 22px;
+								background-color: transparent;
+							}
+							#info form textarea{
+								margin-left: 19px;
+								height: 46px;
+								width: 231px;
+							}
+							#submit_btn{
+								color: #542D00;
+								position: absolute;
+								top: 100px;
+								left: 300px;
+								height: 30px;
+								border: 2px solid #542D00;
+								width: 60px;
+							}
+					#info #correo{
+						left: 160px;
+						bottom: -120px;
+						position: absolute;
+					}
+		#galeria{
+		}
+			#galcont{
+				height: 520px;
+				width: 872px;
+			}
+				#galtitle{
+					top: -40px;
+					left: 60px;
+					position: absolute;
+					z-index: 1;
+				}
+				#galmarco{
+					width: 681px;
+					height: 400px;
+					background: url(img/galmarco.png) no-repeat;
+					-moz-transform:rotate(2deg);     
+					-o-transform:rotate(2deg);
+					-ms-transform:rotate(2deg);     
+					-webkit-transform:rotate(2deg);     
+					transform:rotate(2deg);
+					z-index: 0;
+				}
+					#galload{
+						left: 330px;
+						top: 200px;
+						position: absolute;
+					}
+					#galgrande{
+						width: 430px;
+						height: 315px;
+						left: 120px;
+						top: 38px;
+						position: absolute;
+						z-index: 20;
+					}
+						#imggrande{
+							display:none;
+						}
+					#galPag{
+						width: 590px;
+						top: 195px;
+						left: 40px;
+						position: absolute;
+						-moz-transform:rotate(2deg);     
+						-o-transform:rotate(2deg);
+						-ms-transform:rotate(2deg);     
+						-webkit-transform:rotate(2deg);     
+						transform:rotate(2deg);
+						z-index: 10;
+					}
+						#galPag img{
+							position: relative;
+							cursor: pointer;
+						}
+						#gizq{
+							float: left;
+						}
+						#gder{
+							float: right;
+						}
+					#galslide{
+						background:url(img/film.png) no-repeat; 
+						background-position: 0px 0px;
+						width: 1081px;
+						height: 183px;
+						left: -295px;
+						bottom: 10px;
+						position: absolute;
+						overflow:hidden;
+						-moz-transform:rotate(-3deg);     
+						-o-transform:rotate(-3deg);
+						-ms-transform:rotate(-3deg);     
+						-webkit-transform:rotate(-3deg);     
+						transform:rotate(-3deg);
+						
+					}
+						#galrollo{
+							padding-top: 20px;
+							margin-left: 85px;
+							margin-top: 23px;
+							width: 2500px;
+							height: inherit;
+							background: url(img/minigal.png) repeat-x;
+						}
+							#galrollo img{
+								width: 115px;
+								height: 110px;
+								margin-right: 10px;
+								cursor: pointer;
+							}
+		
+	
+	/* FIN CONTENIDO */
+	
+	/* FOOTER */
+	
+	#footer{
+		color:#542D00;
+		font-size:11px;
+		font-style:italic;
+		font-weight:700;
+		bottom: -70px;
+		left: 0px;
+		margin-left: 500px;
+		position:absolute;
+	}
+	
+	/* FIN FOOTER */
+
+/* FIN CONTENEDOR */

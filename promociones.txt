@@ -1,0 +1,31 @@
+<img class="fondosec" src="img/promociones.png" alt="" />
+<div id="promgallery">
+	<div id="promoslide">
+			<img id="prom1" class="promAct" src="img/prom1.png" alt="" />
+			<img id="prom2" src="img/prom2.png" alt="" />
+			<img id="prom3" src="img/prom3.png" alt="" />
+			<img id="prom4" src="img/prom4.png" alt="" />
+			<img id="prom5" src="img/prom5.png" alt="" />
+	</div>
+	<div id="paginador">
+		<img id="pizq" src="img/pizq.png" alt="" />
+		<img id="pder" src="img/pder.png" alt="" />
+	</div>
+	<ul id="indices">
+		<li>
+			<img id="ind1" class="indAct" src="img/indiceon.png" alt="" />
+		</li>
+		<li>
+			<img id="ind2" src="img/indiceoff.png" alt="" />
+		</li>
+		<li>
+			<img id="ind3" src="img/indiceoff.png" alt="" />
+		</li>
+		<li>
+			<img id="ind4" src="img/indiceoff.png" alt="" />
+		</li>
+		<li>
+			<img id="ind5" src="img/indiceoff.png" alt="" />
+		</li>
+	</ul>
+</div>
